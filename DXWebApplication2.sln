@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXWebApplication2", "DXWebApplication2.csproj", "{264E31E0-C459-4D07-86B0-BB4F52E83996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXApplication1", "DXApplication1\DXApplication1\DXApplication1.csproj", "{81E1F681-0C1D-4FB9-9B8C-99B9C241BAD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXApplication2", "DXApplication2\DXApplication2\DXApplication2.csproj", "{09B3F953-9922-4125-B3A3-6467E9C3E84C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{264E31E0-C459-4D07-86B0-BB4F52E83996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264E31E0-C459-4D07-86B0-BB4F52E83996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264E31E0-C459-4D07-86B0-BB4F52E83996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264E31E0-C459-4D07-86B0-BB4F52E83996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E1F681-0C1D-4FB9-9B8C-99B9C241BAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E1F681-0C1D-4FB9-9B8C-99B9C241BAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E1F681-0C1D-4FB9-9B8C-99B9C241BAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E1F681-0C1D-4FB9-9B8C-99B9C241BAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B3F953-9922-4125-B3A3-6467E9C3E84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B3F953-9922-4125-B3A3-6467E9C3E84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B3F953-9922-4125-B3A3-6467E9C3E84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B3F953-9922-4125-B3A3-6467E9C3E84C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
