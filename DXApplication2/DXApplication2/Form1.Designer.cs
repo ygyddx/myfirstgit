@@ -46,25 +46,25 @@ namespace DXApplication2
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(sideBySideBarSeriesLabel1)).BeginInit();
             this.SuspendLayout();
-            //
+            // 
             // splitContainerControl1
-            //
+            // 
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl1.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.Panel2;
             this.splitContainerControl1.Horizontal = false;
-            this.splitContainerControl1.Location = new System.Drawing.Point(12, 12);
+            this.splitContainerControl1.Location = new System.Drawing.Point(14, 13);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.pivotGridControl);
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.chartControl);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1060, 638);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1237, 687);
             this.splitContainerControl1.SplitterPosition = 299;
             this.splitContainerControl1.TabIndex = 5;
             this.splitContainerControl1.Text = "splitContainerControl1";
-            //
+            // 
             // pivotGridControl
-            //
+            // 
             this.pivotGridControl.Cursor = System.Windows.Forms.Cursors.Default;
             this.pivotGridControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pivotGridControl.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
@@ -74,28 +74,28 @@ namespace DXApplication2
             this.fieldOrderMonth});
             this.pivotGridControl.Location = new System.Drawing.Point(0, 0);
             this.pivotGridControl.Name = "pivotGridControl";
-            this.pivotGridControl.Size = new System.Drawing.Size(1060, 334);
+            this.pivotGridControl.Size = new System.Drawing.Size(1237, 326);
             this.pivotGridControl.TabIndex = 2;
-            //
+            // 
             // fieldProductName
-            //
+            // 
             this.fieldProductName.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
             this.fieldProductName.AreaIndex = 0;
             this.fieldProductName.Caption = "Product Name";
             this.fieldProductName.FieldName = "ProductName";
             this.fieldProductName.Name = "fieldProductName";
             this.fieldProductName.Width = 155;
-            //
+            // 
             // fieldExtendedPrice
-            //
+            // 
             this.fieldExtendedPrice.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
             this.fieldExtendedPrice.AreaIndex = 0;
             this.fieldExtendedPrice.CellFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
             this.fieldExtendedPrice.FieldName = "Extended Price";
             this.fieldExtendedPrice.Name = "fieldExtendedPrice";
-            //
+            // 
             // fieldOrderYear
-            //
+            // 
             this.fieldOrderYear.AreaIndex = 0;
             this.fieldOrderYear.Caption = "Order Year";
             this.fieldOrderYear.FieldName = "OrderDate";
@@ -103,24 +103,22 @@ namespace DXApplication2
             this.fieldOrderYear.Name = "fieldOrderYear";
             this.fieldOrderYear.Options.IsFilterRadioMode = DevExpress.Utils.DefaultBoolean.True;
             this.fieldOrderYear.UnboundFieldName = "fieldOrderYear";
-            //
+            // 
             // fieldOrderMonth
-            //
+            // 
             this.fieldOrderMonth.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea;
             this.fieldOrderMonth.AreaIndex = 0;
-            this.fieldOrderMonth.Caption = "Order Month";
+            this.fieldOrderMonth.Caption = "Order Month999";
             this.fieldOrderMonth.FieldName = "OrderDate";
             this.fieldOrderMonth.GroupInterval = DevExpress.XtraPivotGrid.PivotGroupInterval.DateMonth;
             this.fieldOrderMonth.Name = "fieldOrderMonth";
             this.fieldOrderMonth.UnboundFieldName = "fieldOrderDate";
-            //
+            // 
             // chartControl
-            //
+            // 
             xyDiagram1.AxisX.Label.Staggered = true;
             xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram1.AxisX.WholeRange.AutoSideMargins = true;
             xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
-            xyDiagram1.AxisY.WholeRange.AutoSideMargins = true;
             this.chartControl.Diagram = xyDiagram1;
             this.chartControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.chartControl.Legend.MaxHorizontalPercentage = 30D;
@@ -133,17 +131,17 @@ namespace DXApplication2
             this.chartControl.SeriesTemplate.Label = sideBySideBarSeriesLabel1;
             this.chartControl.SeriesTemplate.LabelsVisibility = DevExpress.Utils.DefaultBoolean.False;
             this.chartControl.SeriesTemplate.ValueDataMembersSerializable = "Values";
-            this.chartControl.Size = new System.Drawing.Size(1060, 299);
+            this.chartControl.Size = new System.Drawing.Size(1237, 349);
             this.chartControl.TabIndex = 3;
-            //
+            // 
             // Form1
-            //
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1084, 662);
+            this.ClientSize = new System.Drawing.Size(1265, 713);
             this.Controls.Add(this.splitContainerControl1);
             this.Name = "Form1";
-            this.Padding = new System.Windows.Forms.Padding(12);
+            this.Padding = new System.Windows.Forms.Padding(14, 13, 14, 13);
             this.Text = "Data Analysis";
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
